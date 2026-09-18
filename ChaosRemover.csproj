@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ChaosRemover</AssemblyName>
+    <RootNamespace>ChaosRemover</RootNamespace>
+    <Authors>Vita</Authors>
+    <Version>1.0.0</Version>
+    <Description>An EXILED plugin for SCP: Secret Laboratory that removes the CASSIE announcement for Chaos Insurgency waves.</Description>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExMod.Exiled" Version="9.14.2" />
+  </ItemGroup>
+
+</Project>
