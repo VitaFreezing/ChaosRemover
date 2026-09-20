@@ -1,4 +1,16 @@
-﻿# ChaosRemover
+# ChaosRemover
+
+<p align="left">
+  <a href="https://github.com/VitaFreezing/ChaosRemover/releases/latest">
+    <img src="https://img.shields.io/github/v/release/VitaFreezing/ChaosRemover?style=flat-square&color=2ea44f&logo=github" alt="Latest Release" />
+  </a>
+  <a href="https://github.com/VitaFreezing/ChaosRemover/releases">
+    <img src="https://img.shields.io/github/downloads/VitaFreezing/ChaosRemover/total?style=flat-square&logo=github&color=00B4D8" alt="Total Downloads" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/VitaFreezing/ChaosRemover?style=flat-square&color=blue" alt="License" />
+  </a>
+</p>
 
 **ChaosRemover** is an [EXILED](https://github.com/ExMod-Team/EXILED) plugin for **SCP: Secret Laboratory** that silences and removes the C.A.S.S.I.E. announcement when a Chaos Insurgency wave spawns.
 
@@ -24,7 +36,7 @@
 
 ## ⚙️ Configuration
 
-A configuration block is automatically generated in your server's plugins `conig` under `ChaosRemover`:
+A configuration block is automatically generated in your server's plugins `config` file under `ChaosRemover`:
 
 ```yaml
 ChaosRemover:
@@ -36,10 +48,3 @@ ChaosRemover:
   silence_standard_wave: true
   # Silence the CASSIE announcement for Chaos Insurgency mini waves.
   silence_mini_wave: true
-```
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
